@@ -1,0 +1,178 @@
+/*----------------< Engine Layout Manager>-------------------------*/
+
+@font-face 
+{
+    font-family: Coda-Regular;
+    src: url('../fonts/Coda-Regular.ttf');
+}
+
+@font-face 
+{
+    font-family: Cus-Header;
+    src: url('../fonts/Cus-Header.ttf');
+}
+
+body{
+	margin:0;
+	padding:0;
+	background-color:#333;
+}
+
+.break
+{
+	clear:both;	
+}
+
+.nav-font
+{
+	font-family: Coda-Regular;
+}
+
+.header
+{
+	font-size:10pt;
+	position:relative;
+	left:10px;
+	font-family: Coda-Regular;
+	color:#0080FF;
+}
+
+.no-content
+{
+	color:#FF0000;
+	font-size:8pt;
+	margin:0px 0px 0px 20px;
+}
+
+#control
+{
+	border:1px solid #08f;
+	height:50px;
+	background-color:#0af;
+	z-index:999;
+}
+
+.navbar-collapse collapse, header .notification
+{
+ display:none;
+}
+
+nav
+{
+	bord/er:1px solid red !important;
+	font-family:Coda-Regular;
+	max-width:1000px;
+	height:35px !important;
+	position:relative;
+	margin:0 auto;
+}
+
+nav h1
+{
+	position:absolute;
+	top:6px;
+	lef/t:0;
+	color:white;
+	text-shadow:1px 1px #000;
+	font-family:Cus-Header;
+	font-size:22pt;
+	margin:0;
+	padding:0;
+	
+}
+
+nav h1 img
+{
+	position:absolute;
+	top:0px;
+}
+
+nav ul{
+	fl.oat:right;
+}
+
+nav li a
+{
+	li.st-style:none;
+	fl.oat:left;
+	cursor:pointer;
+	color:white !important;
+	font-si/ze:10pt;
+	position:relative;
+	to.p:15px;
+	m.argin:0px 0px 0px 10px;
+}
+
+nav li a:hover
+{
+	color:#eee !important;
+}
+
+nav .move-left
+{
+	float:right;
+	posi.tion:relative;
+	le.ft:580px;
+}
+
+.navbar
+{
+	background-color:none !important;
+}
+
+header
+{
+	border:none;
+	position:relative;
+	width:100%;
+	height:90px;
+	background-color:#fff;
+}
+
+header .notification
+{
+	border:1px solid #ccc;
+	position:absolute;
+	left:40%;
+	z-index:900;
+	width:700px;
+	height:500px;
+	marg.in:0 auto;
+	background:#fff;
+	display:none;
+}
+
+header .notification #close
+{
+	cursor:pointer;
+	border:1px solid #555;
+	position:absolute;
+	left:40%;
+}
+
+#grey-box
+{
+	border:1px solid #ccc;
+	height:400px;
+	background-color:#eee;
+}
+
+.canvas
+{
+	border:1px solid #ccc;
+	max-width:1000px;
+	min-width:1000px;
+	min-height:500px;
+	position:relative;
+	top:-50px;
+	margin:0 auto;
+	background-color:white;
+	box-shadow:0px 0px 3px #aaa;
+}
+
+footer
+{
+	border-top:10px solid #0af;
+	height:150px;
+	background-color:#333;
+}

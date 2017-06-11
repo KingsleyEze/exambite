@@ -1,0 +1,5 @@
+ 
+	
+	function emptyWindow(){
+		$(".notification").empty();
+	}

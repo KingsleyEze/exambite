@@ -1,0 +1,178 @@
+﻿
+.side-nav .dp-pic
+{
+	height:160px;
+	width:160px;
+	position:relative;
+	top:0px;
+	right:0px;
+	padding:8px;
+	margin: 20px 0px 10px 18px;
+	background-color:#BEBEBE;
+	
+	display:block;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center center;
+	-webkit-border-radius:99em;
+	-moz-border-radius:99em;
+	border-radius:99em;
+	border: 5px solid #EEE;
+	box-shadow:0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.side-nav ul
+{
+	list-style:none;
+	position:relative;
+	top:10px;
+	margin: 0px 5px 0px 5px;
+	padding: 0px 0px 0px 0px;
+}
+
+.side-nav li
+{
+	border:1px solid #D9D9D9;
+	margin: 0px 0px 5px 0px;
+	padding: 5px 5px 5px 20px;
+	font-family: Coda-Regular;
+	font-size:10pt;
+}
+
+.side-nav li:hover
+{
+	border:1px solid #D90000;
+}
+
+.side-nav a
+{
+	text-decoration:none !important;
+}
+
+.side-nav a:hover
+{
+	color:#FF2200;
+}
+
+
+/*-------------- Old Design UI ------------------------*/
+
+#bio-data th, #side-score th,  #side-exam th{
+margin:0px;
+font-size:10pt;
+padding-left:-10px;
+text-align:left;
+color:#10f;
+}
+
+#bio-data td, #side-score td,  #side-exam td{
+color:#555;
+}
+
+#bio-data{
+border:1px solid #eee;
+height:200px;
+margin:20px 20px 10px 20px;
+}
+
+#bio-data  #side-x{
+float:left;
+bor.der:1px solid #f00;
+height:200px;
+width:500px;
+mar.gin:5px 20px;
+}
+
+#bio-data  .bio{
+text-alig.n:right;
+padding:5px 0;
+}
+
+#bio-data  strong{
+color:#555;
+font-weight:444;
+margin-right:8px;
+}
+
+#bio-data  td{
+margin-left:40px;
+}
+
+#bio-data  table{
+position:relative;
+top:10px;
+left:20px;
+font-size:10pt;
+}
+
+
+
+#exam-data{
+border:1px solid #eee;
+height:220px;
+margin:2px 20px;
+}
+
+#side-score{
+float:left;
+border-right:1px solid  #eee;
+width:480px;
+height:200px;
+margin:10px 0;
+}
+
+#side-score  .bio{
+text-alig.n:right;
+padding:5px 0;
+}
+
+#side-score  strong{
+color:#555;
+font-weight:444;
+margin-right:8px;
+}
+
+#side-score  td{
+margin-left:40px;
+}
+
+#side-score  table{
+position:relative;
+top:5px;
+left:20px;
+font-size:10pt;
+}
+
+#side-score  .view{
+border:1px solid #eee;
+padding:2px 30px !important;
+font-size:10pt;
+text-decoration:none;
+color:#555;
+}
+
+#side-score  .view:hover{
+border:1px solid #f00;
+color:#f00;
+}
+
+#side-exam{
+float:left;
+margin:10px 10px;
+}
+
+#side-exam .button{
+float:left; 
+border:1px solid #ccc;
+margin:10px 10px 0px 0px;
+text-decoration:none;
+font-size:10pt;
+padding:4px 0px 4px 60px;
+width:220px;
+color:#555;
+}
+
+#side-exam .button:hover{
+border:1px solid #f00;
+color:#f00;
+}

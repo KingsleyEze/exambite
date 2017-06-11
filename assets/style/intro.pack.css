@@ -1,0 +1,172 @@
+
+@font-face {
+    font-family: Coda-Regular;
+    src: url('../fonts/Coda-Regular.ttf');
+}
+
+@font-face {
+    font-family: Exo-Light;
+    src: url('../fonts/Inder-Regular.ttf');
+}
+
+#canvas-splash-screen
+{
+	float:left;
+	border:none;
+	width:600px;
+	height:460px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#canvas-slider-container img
+{
+	border: 1px solid #ccc;
+	heig/ht:200px;
+	margin: 3px 0px -5px 0px;
+	padding:5px;
+}
+
+#canvas-splash-screen article
+{
+	margin: 0px 0px 0px 0px;
+}
+
+#canvas-splash-screen h1
+{
+	font-size:19pt;
+	font-family:Coda-Regular;
+}
+
+#canvas-splash-screen p
+{
+	font-family:Exo-Light;
+}
+
+#exam-org img
+{
+	wi/dth:90px;
+	hei/ght:90px;
+	position:relative;
+	left:10px;
+	margin:10px 20px 0px 15px;	
+} 
+
+#canvas-splash-features
+{
+	float:right;
+	border:none;
+	border-left:1px solid #CDCDCD;
+	width:345px;
+	height:400px;
+	margin: 15px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#canvas-splash-features h3
+{
+	font-size:9pt;
+	text-align:left;
+	position:absolute;
+	width:280px;
+	color:#e00;
+	top:35px;
+	right:0;
+	bord.er:1px solid #f00;
+	padd.ing:5px 18px;
+}
+
+#login
+{
+	position:relative;
+	top:60px;
+	left:40px;
+}
+
+#login input
+{
+	width:260px;
+	padding:3px 2px;
+	font-size:10pt;
+	margin-top:3px;
+	color: #333;
+}
+
+
+#login p
+{
+	font-size:9pt;
+	color: #0099FF;
+	font-weight:bold;
+	font-family:Coda-Regular;
+	letter-spacing:1px;
+}
+
+#login a
+{
+	font-size:9pt
+	font-family:Exo-Light;;
+	color:#555;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+#login a:hover
+{
+	color:#f00;
+	text-decoration:none;
+}
+
+#login input[type=submit]
+{
+	border: 1px solid #555;
+	background-position: 0% 0%;
+	height: 26px;
+	width: 80px;
+	padding: 0;
+	cursor: pointer;
+	font: bold 14px Arial, Helvetica;
+	color: #ffe;
+	position: relative;
+	left: 0px;
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #6cbb6b),color-stop(1, #95d788));
+	background-color: #00CC66;
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+
+#login input[type=submit]:hover
+{
+	background: #00daff;
+	color:#fff;
+}
+
+#login #new-user
+{
+	position:relative;
+	top:20px;
+}
+
+#users-counter
+{
+	border: none;
+	width:260px;
+	position:absolute;
+	top:415px;
+	right:67px;
+	color:#4160DC;	
+	font-family:Coda-Regular;
+	font-size:10pt;
+}
+
+
+#users-counter span
+{
+	color:#FF0000;	
+}
+
+#front-free
+{	position:absolute;
+	top:300px;
+	right:197px;	
+}
